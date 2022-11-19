@@ -1,0 +1,28 @@
+@media all and (max-width: 991px) {
+  .hk-header-area ul.navbar-nav.ms-auto {
+    background-color: var(--background-color-1);
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .navbar_active {
+    background-color: var(--background-color-2);
+    height: 0px;
+  }
+
+  .navbar_active a.nav-link,
+  .navbar_active a {
+    color: var(--color-2);
+  }
+}
+
+@media all and (max-width: 575px) {
+  .hk-progress-bar,
+  .single-count-item,
+  .hk-main-slider-area,
+  .hk-single-news,
+  .hk-contact-area input,
+  .hk-footer-area h2 {
+    margin-top: 50px;
+  }
+}
